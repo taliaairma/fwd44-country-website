@@ -61,8 +61,9 @@ a:visited {
 }
 
 a:hover {
-  color: #ad0c1f;
+  color: #fff;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 a:active {
@@ -140,7 +141,7 @@ nav a[aria-current="page"] {
 }
 
 .hero-overlay h1 {
-  font-size: 35.5rem;
+  font-size: 35rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 
@@ -166,7 +167,7 @@ nav a[aria-current="page"] {
 
 /* Explore Button */
 .hero-button {
-  margin-top: 1.5rem;
+  margin: 4% auto;
 }
 
 a.btn-explore {
@@ -205,4 +206,9 @@ a.btn-explore {
 /* Footer */
 footer {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #946d00;
+  padding: 1rem 2rem 0 2rem;
 }
