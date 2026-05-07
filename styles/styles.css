@@ -192,16 +192,28 @@ a.btn-explore {
 
 /* Table */
 table {
+  display: block;
+  text-align: center;
   table-layout: fixed;
   width: 50rem;
-  border: 1px solid #fff;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
   border-collapse: collapse;
 }
 
 th,
 td {
-  border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
+  padding: 10px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+
+th {
+  color: #ffde00;
+}
+
+td {
+  color: white;
 }
 
 /* Footer */
