@@ -15,7 +15,7 @@ body {
     sans-serif;
   line-height: 1.5;
   color: #1a1a1a;
-  background-color: #fefcf5;
+  background-color: #63121b;
   padding: 1rem;
 }
 
@@ -162,6 +162,23 @@ nav a[aria-current="page"] {
   display: inline-block;
   padding: 0.25rem 1rem;
   border-radius: 30px;
+}
+
+/* Explore Button */
+.hero-button {
+  margin-top: 1.5rem;
+}
+
+a.btn-explore {
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem 2rem;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 /* Grids */
