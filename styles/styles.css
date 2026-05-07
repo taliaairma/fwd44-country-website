@@ -31,7 +31,7 @@ h4 {
   line-height: 1.2;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #63121b;
+  color: #fff;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 p {
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 1rem;
 }
 
@@ -97,7 +97,7 @@ img {
 
 /* Navigation */
 header {
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 nav ul {
@@ -209,6 +209,6 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #946d00;
+  background-color: #6b4f02;
   padding: 1rem 2rem 0 2rem;
 }
