@@ -190,17 +190,18 @@ a.btn-explore {
   transform: scale(1.05);
 }
 
-/* Grids */
-.preview-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+/* Table */
+table {
+  table-layout: fixed;
+  width: 50rem;
+  border: 1px solid #fff;
+  border-collapse: collapse;
 }
 
-.preview-grid > div {
-  background-color: #8686866b;
-  padding: 1.5rem;
+th,
+td {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 /* Footer */
