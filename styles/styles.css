@@ -179,6 +179,7 @@ a.btn-explore {
   border-radius: 50px;
   text-decoration: none;
   transition: all 0.3s ease;
+  letter-spacing: 3px;
 }
 
 /* Grids */
