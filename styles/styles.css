@@ -46,6 +46,7 @@ h2 {
 }
 
 p {
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -151,14 +152,14 @@ nav a[aria-current="page"] {
   -webkit-background-clip: text;
   color: transparent;
 
-  text-shadow: none;
+  text-shadow: #1a1a1a;
 }
 
 .hero-overlay p {
   font-size: 1.25rem;
-  color: #cc9900;
+  color: #ffde00;
   font-weight: 600;
-  background-color:;
+  background-color: transparent;
   display: inline-block;
   padding: 0.25rem 1rem;
   border-radius: 30px;
