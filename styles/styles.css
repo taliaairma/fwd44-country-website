@@ -52,7 +52,7 @@ p {
 
 /* Links */
 a:link {
-  color: #ad0c1f;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -119,8 +119,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ffde00;
-  color: #2b0000;
+  color: #ffde00;
   text-decoration: none;
 }
 
