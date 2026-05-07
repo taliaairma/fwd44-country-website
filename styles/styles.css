@@ -152,7 +152,7 @@ nav a[aria-current="page"] {
   -webkit-background-clip: text;
   color: transparent;
 
-  text-shadow: #1a1a1a;
+  text-shadow: none;
 }
 
 .hero-overlay p {
