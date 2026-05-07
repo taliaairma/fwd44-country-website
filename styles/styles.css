@@ -173,4 +173,6 @@ nav a[aria-current="page"] {
 }
 
 .preview-grid > div {
+  background-color: #8686866b;
+  padding: 1.5rem;
 }
