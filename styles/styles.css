@@ -145,14 +145,14 @@ nav a[aria-current="page"] {
   font-weight: 700;
   margin-bottom: 0.5rem;
 
-  background-image: url("../images/great-wall.jpg");
+  background-image: url("../images/beijing.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 35% 35%;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 
-  text-shadow: none;
+  text-shadow: 2px 2px 4px #b6b5b51c;
 }
 
 .hero-overlay p {
