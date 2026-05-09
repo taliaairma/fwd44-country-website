@@ -69,7 +69,7 @@ a:hover {
 }
 
 a:active {
-  color: #ad0c1f;
+  color: #ffde00;
 }
 
 a:focus {
@@ -79,11 +79,11 @@ a:focus {
 /* Skip Link */
 .skip-link {
   position: relative;
-  top: 3.5rem;
-  left: 0;
+  top: 0;
+  left: 2rem;
   color: #ffffff;
   padding: 8px;
-  z-index: 100;
+  z-index: 1;
 }
 
 .skip-link:focus {
@@ -208,10 +208,48 @@ a.btn-explore {
 }
 
 figure {
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #fff;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
   align-items: center;
   color: #fff;
+}
+
+.featured:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgb(80, 80, 80);
+}
+
+.text {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* Table */
