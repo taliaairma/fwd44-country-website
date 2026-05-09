@@ -248,6 +248,7 @@ figure img {
 
 .text {
   backdrop-filter: blur(15px);
+  padding: 0.5rem 1rem;
   color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
