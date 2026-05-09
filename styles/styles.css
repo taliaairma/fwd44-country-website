@@ -35,8 +35,10 @@ h4 {
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-top: 5rem;
 }
 
 h2 {
@@ -190,6 +192,28 @@ a.btn-explore {
   transform: scale(1.05);
 }
 
+/* Main Content */
+.attractions-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Photo Gallery */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
 /* Table */
 table {
   display: block;
@@ -233,6 +257,7 @@ td {
 /* Quick Navigation */
 .quick-nav {
   text-align: center;
+  margin-top: 5rem;
 }
 
 /* Footer */
@@ -242,5 +267,6 @@ footer {
   align-items: center;
   justify-content: space-between;
   background-color: #6b4f02;
+  margin-top: 5rem;
   padding: 1rem 2rem 0 2rem;
 }
