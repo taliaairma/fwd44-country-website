@@ -376,6 +376,19 @@ td {
   list-style-type: "🀄";
 }
 
+/* Blockquote */
+.blockquote {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+/* Video */
+.video {
+  text-align: center;
+  margin: 2rem 0;
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -418,6 +431,11 @@ footer {
 
   .flavor-map {
     margin: 2rem 2rem;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -479,8 +497,14 @@ footer {
   .table {
     display: flex;
     justify-content: center;
+    table-layout: fixed;
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .video iframe {
+    width: 600px;
+    height: 315px;
   }
 }
