@@ -153,7 +153,7 @@ nav a[aria-current="page"] {
 }
 
 .hero-overlay h1 {
-  font-size: 35rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
 
@@ -253,7 +253,7 @@ a.btn-explore {
 
 /* Photo Gallery */
 .photo-gallery {
-  display: grid;
+  display: block;
   grid-template-columns: 30rem 30rem;
   grid-template-rows: 20rem 20rem;
   justify-content: center;
@@ -288,7 +288,7 @@ figure img {
   right: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  opacity: 0.78;
   transition: 0.3s ease;
   background-color: #63121b;
 }
@@ -310,19 +310,18 @@ figure img {
 
 /* Table */
 table {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  table-layout: fixed;
-  width: 50rem;
+  display: table;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
   border-top: 3px solid #fff;
   border-left: 3px solid #fff;
   border-collapse: collapse;
 }
 
 .table {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 100%;
 }
 
 th,
@@ -495,12 +494,11 @@ footer {
   }
 
   .table {
-    display: flex;
+    display: table;
+    text-align: center;
     justify-content: center;
-    table-layout: fixed;
-    max-width: 1800px;
-    margin-left: auto;
-    margin-right: auto;
+    table-layout: auto;
+    /* max-width: 1800px; */
   }
 
   .video iframe {
