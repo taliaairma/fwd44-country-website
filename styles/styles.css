@@ -78,6 +78,9 @@ a:focus {
 
 /* Skip Link */
 .skip-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
   position: relative;
   top: 0;
   left: 2rem;
@@ -103,6 +106,8 @@ header {
 }
 
 nav ul {
+  font-size: 1.25rem;
+  margin-bottom: 5rem;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -165,6 +170,43 @@ nav a[aria-current="page"] {
   display: inline-block;
   padding: 0.25rem 1rem;
   border-radius: 30px;
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #4a0202;
+  border-radius: 16px;
+}
+
+.contact-form label {
+  font-family: "Poppins", sans-serif;
+  color: #ffde00;
+  display: inline-block;
+  margin: 0.5rem 2rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  font-family: "Poppins", sans-serif;
+  width: 80%;
+  padding: 0.5rem;
+  margin: 0.5rem 2rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.contact-form button {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 0.45rem 1rem;
 }
 
 /* Explore Button */
@@ -230,7 +272,7 @@ figure img {
 }
 
 .featured:hover .overlay {
-  opacity: 1;
+  opacity: 0;
 }
 
 .overlay {
@@ -241,7 +283,7 @@ figure img {
   right: 0;
   width: 100%;
   height: 100%;
-  opacity: 0;
+  /* opacity: 1; */
   transition: 0.3s ease;
   background-color: rgb(80, 80, 80);
 }
@@ -314,6 +356,19 @@ td {
 .quick-nav {
   text-align: center;
   margin-top: 5rem;
+}
+
+/* Image Credits */
+.image-credits {
+  padding: 1rem;
+  margin: 2rem 2rem;
+  color: #ffde00;
+  margin-top: 2rem;
+}
+
+.image-credits ul {
+  font-size: 1.25rem;
+  list-style-type: "🀄";
 }
 
 /* Footer */
