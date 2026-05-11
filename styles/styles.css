@@ -86,12 +86,16 @@ div {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   text-align: center;
-  position: relative;
+  display: block;
+  position: absolute;
   top: 0;
-  left: 2rem;
-  color: #ffffff;
-  padding: 8px;
-  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: #ffde00; */
+  color: #ffde00;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
 }
 
 .skip-link:focus {
@@ -107,28 +111,33 @@ img {
 
 /* Navigation */
 header {
-  margin: 2rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #63121b;
+  z-index: 100;
+  margin: 0;
+  padding: 0.5rem;
 }
 
 nav ul {
-  font-size: 1.25rem;
-  margin-bottom: 5rem;
-  list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  /* background-color: #fff; */
-  /* padding: 0.75rem 1rem;
-  border-radius: 50px; */
+  justify-content: space-evenly;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0 0 0.5rem 0;
+  gap: 0.25rem;
 }
 
 nav a {
-  color: #ffff;
-  font-weight: 600;
-  padding: 0.5rem 0.75rem;
-  border-radius: 30px;
-  transition: background 0.2s;
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+}
+
+main {
+  margin-bottom: 15.78rem; /* space for bottom nav */
 }
 
 nav a:hover {
@@ -137,8 +146,9 @@ nav a:hover {
 }
 
 nav a[aria-current="page"] {
-  background-color: #ffde00;
-  color: #2b0000;
+  /* background-color: #ffde00; */
+  border-radius: 30px;
+  color: #ffde00;
 }
 
 /* Hero Section */
@@ -391,16 +401,17 @@ td {
 /* Footer */
 footer {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #6b4f02;
-  margin-top: 5rem;
-  padding: 1rem 2rem 0 2rem;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: space-evenly;
+  /* background-color: #6b4f02; */
+  /* margin-top: 5rem; */
+  /* padding: 1rem 2rem 0 2rem; */
+  gap: 1rem;
 }
 
 /* Mobile to Desktop */
-@media (min-width: 320px) {
+@media (min-width: 20rem) {
   body {
     padding: 1rem;
   }
@@ -483,6 +494,29 @@ footer {
     margin-right: auto;
   }
 
+  header {
+    position: sticky;
+    margin: 2rem 0;
+  }
+
+  nav ul {
+    margin-bottom: 5rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: #ffff;
+    font-weight: 600;
+    font-size: 1.78rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 30px;
+    transition: background 0.2s;
+  }
+
   .hero-overlay h1 {
     font-size: 35rem;
   }
@@ -504,5 +538,11 @@ footer {
   .video iframe {
     width: 600px;
     height: 315px;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
 }
